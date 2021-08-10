@@ -11,6 +11,7 @@
 As it is the most important resource during the exam, I forced myself to solve my problems with tips and examples from the official docs.
 In the exam it helps a lot to know which Docs article has your solution.
 
+https://kubernetes.io/docs/
 
 * **Udemy Course**: "Certified Kubernetes Administrator (CKA) with Practice Tests"
 
