@@ -87,6 +87,19 @@ kubectl api-resources --namespaced=true
 kubectl api-resources --namespaced=false
 ```
 
+* Explain K8s objects
+
+If you want to know the object structure of pods:
+```
+kubectl explain pods --recursive  | wc -l
+996 #note this number!
+
+kubectl explain pods --recursive  | grep image -b996
+
+# this will color-mark the object in the given structure you were looking for.
+# This helps to build structured commands for jsonpath! 
+```
+
 ### Favorite links
 
 * kubectl Cheat Sheet
