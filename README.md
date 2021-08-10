@@ -59,3 +59,22 @@ I do not use:
 I set up my own local K8s cluster on a notebook
 
 Tutorial: https://github.com/chrishoerl/k8s-play
+
+### My desk for the exam day
+* notebook with lid closed (it plays audio in case the proctor wants to say something)
+* big 21:9 wide screen in the center to have 2 browser tabs besides each other (1 for exam terminal and 1 for K8s Docs)
+* Webcam Logitech C920 HD Pro on top of my screen
+* USB keyboard
+* mouse
+* 1 bottle of water
+* door locked for no one to come in and disturb me
+* leave your mobile phone outside the room
+
+### Tip:
+
+If you want to do the exam in a room you are not so familiar with, make sure to prepare the room fitting your needs.
+* light
+* window
+* distance of your chair towards the desk
+* distance of the keyboard to the screen
+* does the mouse work well on the desk?!
