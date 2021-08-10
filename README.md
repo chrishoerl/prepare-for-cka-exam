@@ -7,6 +7,11 @@
 * 17 years of professional experience in Linux
 
 ### Material / Courses
+* **Kubernetes Documentation**: it is a valuable pool of information and its search function also finds bash commands such as: "busybox while true"
+As it is the most important resource during the exam, I forced myself to solve my problems with tips and examples from the official docs.
+In the exam it helps a lot to know which Docs article has your solution.
+
+
 * **Udemy Course**: "Certified Kubernetes Administrator (CKA) with Practice Tests"
 
 https://www.udemy.com/share/101WmE/
@@ -41,3 +46,16 @@ https://killer.sh/cka
 * **Sunday**: summit day.... erm... exam day. - Had a good feeling afterwards.
 * **Monday**: Got my result: Passed!
 
+### Tools
+
+I use:
+* kubectl autocompletion
+
+I do not use:
+* terminal managers such as tmux, just a plain single terminal
+* command aliases for kubectl such as k=kubectl because I want to have clear commands other can also understand
+
+### Environment
+I set up my own local K8s cluster on a notebook
+
+Tutorial: https://github.com/chrishoerl/k8s-play
