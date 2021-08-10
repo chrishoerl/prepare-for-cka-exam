@@ -55,6 +55,58 @@ I do not use:
 * terminal managers such as tmux, just a plain single terminal
 * command aliases for kubectl such as k=kubectl because I want to have clear commands other can also understand
 
+### Favorite K8s shortcuts
+
+This is a list of my favorite and most-used links and examples for creating K8s objects.
+
+* Create a container to test other pods and services:
+```
+kubectl run curl --image=radial/busyboxplus:curl -i --tty
+```
+
+* Run a command in a shell:
+```
+command: ["/bin/sh"]
+args: ["-c", "while true; do echo hello; sleep 10;done"]
+```
+
+* Create a pod in a 1-liner
+```
+kubectl run mypod --image=nginx --dry-run=client -o yaml > mypod.yml
+kubectl -n default apply -f mypod.yml
+kubectl -n default get po
+```
+
+* API resources 
+```
+kubectl api-resources
+kubectl api-resources --namespaced=true
+kubectl api-resources --namespaced=false
+```
+
+### Favorite links
+
+* kubectl Cheat Sheet
+
+  https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+
+* Configure a Pod to Use a Volume for Storage
+
+  https://kubernetes.io/docs/tasks/configure-pod-container/configure-volume-storage/
+
+* Configure a Pod to Use a PersistentVolume for Storage
+
+  https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/
+
+* Network Policy
+
+  https://kubernetes.io/docs/concepts/services-networking/network-policies/#networkpolicy-resource
+
+* Security Context
+
+  https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
+
+
 ### Environment
 I set up my own local K8s cluster on a notebook
 
@@ -70,7 +122,7 @@ Tutorial: https://github.com/chrishoerl/k8s-play
 * door locked for no one to come in and disturb me
 * leave your mobile phone outside the room
 
-### Tip:
+### Room tip:
 
 If you want to do the exam in a room you are not so familiar with, make sure to prepare the room fitting your needs.
 * light
