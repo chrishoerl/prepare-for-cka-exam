@@ -1,15 +1,17 @@
 # Certified Kubernetes Administrator Exam (CKA)
 
-## How I prepared for
+## How I prepared for it in August 2021
 
 ### My situation:
 * 2 years of professional experience with K8s
 * 17 years of professional experience in Linux
 
+### Kubernetes Version
+My exam was performed on K8s v1.21
+
 ### Material / Courses
 * **Kubernetes Documentation**: it is a valuable pool of information and its search function also finds bash commands such as: "busybox while true"
 As it is the most important resource during the exam, I forced myself to solve my problems with tips and examples from the official docs.
-In the exam it helps a lot to know which Docs article has your solution.
 
 https://kubernetes.io/docs/
 
