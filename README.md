@@ -1,7 +1,7 @@
 # Certified Kubernetes Administrator Exam (CKA)
 
 ## My badge
-<a href="https://www.credly.com/badges/5ae8fb96-13ee-41e0-96f3-fd445c37e794/public_url">
+<a href="https://www.credly.com/badges/5ae8fb96-13ee-41e0-96f3-fd445c37e794/public_url" target="_blank">
   <img src="https://images.credly.com/size/340x340/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png">
 </a>
 
